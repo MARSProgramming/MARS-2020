@@ -1,0 +1,2 @@
+# 2019-Dashboard
+This year, we used a touchscreen tablet for our manipulator’s driver controls instead of mapping 15 buttons to a gamepad controller. Along with these driver controls, we have many indicators for driver feedback including warning lights, camera, state indicators, overlays, and IR sensors. We also have visual cues, such as a match timer and elevator state and goal indicators. We have a tune tab for parameter tuning and indicated data points.  

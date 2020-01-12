@@ -1,0 +1,11 @@
+1. Plug in power strip
+2. Plug in network cable to USB-Ethernet adapter
+3. Tablet function
+4. Joystick function and position
+5. Limelight
+6. USB camera
+7. Tilt sensor
+8. Battery voltage
+9. Air pressure
+10. Set driver profile
+11. Set match warning time
