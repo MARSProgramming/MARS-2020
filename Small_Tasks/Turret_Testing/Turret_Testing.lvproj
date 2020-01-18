@@ -99,6 +99,9 @@ AddOutputFilter chunkFilter
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Subsystems" Type="Folder" URL="../Subsystems">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
@@ -113,14 +116,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Turret" Type="Folder">
-			<Item Name="Teleop_Turret.vi" Type="VI" URL="../Teleop_Turret.vi"/>
-			<Item Name="Turret_Execute.vi" Type="VI" URL="../Turret_Execute.vi"/>
-			<Item Name="Turret_Globals.vi" Type="VI" URL="../Turret_Globals.vi"/>
-			<Item Name="Turret_Set.vi" Type="VI" URL="../Turret_Set.vi"/>
-		</Item>
-		<Item Name="Drive_Execute.vi" Type="VI" URL="../Drive/Drive_Execute.vi"/>
-		<Item Name="Drive_Globals.vi" Type="VI" URL="../Drive_Globals.vi"/>
+		<Item Name="Turret" Type="Folder"/>
 		<Item Name="Drive_Teleop.vi" Type="VI" URL="../Drive_Teleop.vi"/>
 		<Item Name="Limelight_Read.vi" Type="VI" URL="../Limelight_Read.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -488,9 +484,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Drive_Set.vi" Type="VI" URL="../Drive/Drive_Set.vi"/>
-			<Item Name="DriveExecuteCluster.ctl" Type="VI" URL="../Drive/DriveExecuteCluster.ctl"/>
-			<Item Name="DriveSetCluster.ctl" Type="VI" URL="../Drive/DriveSetCluster.ctl"/>
+			<Item Name="Drive_Globals.vi" Type="VI" URL="../Subsystems/Drive_Globals.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -508,7 +502,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="PID.vi" Type="VI" URL="../Utility_VIs/PID.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../Utility_VIs/Toggle.vi"/>
-			<Item Name="Turret_Cluster.ctl" Type="VI" URL="../Turret_Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
