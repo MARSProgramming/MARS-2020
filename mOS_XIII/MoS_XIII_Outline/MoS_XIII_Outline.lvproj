@@ -565,7 +565,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Drive_Globals.vi" Type="VI" URL="../Global_Variables/Drive_Globals.vi"/>
 			<Item Name="Elevator_Globals.vi" Type="VI" URL="../Global_Variables/Elevator_Globals.vi"/>
 			<Item Name="Encoder_Initialization.vi" Type="VI" URL="../Initialization_VIs/Encoder_Initialization.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
