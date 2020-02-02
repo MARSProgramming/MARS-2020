@@ -616,7 +616,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Refnum Names.vi" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2018/2018 Build Season/mOS XI/Robot Project/Trunk/Utility VIs/Refnum Names.vi"/>
 			<Item Name="Refnum_Names.vi" Type="VI" URL="../Global_Variables/Refnum_Names.vi"/>
 			<Item Name="Robot_Global_Data.vi" Type="VI" URL="../Global_Variables/Robot_Global_Data.vi"/>
 		</Item>
