@@ -4,6 +4,8 @@
 
 Turret: 14/4500
 
+Flywheel: 1/1
+
 Climb elevator: 63/1
 
 Hopper: 35/1
