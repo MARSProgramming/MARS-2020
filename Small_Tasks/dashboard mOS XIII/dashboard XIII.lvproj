@@ -21,6 +21,7 @@
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="WriteToCSV.vi" Type="VI" URL="../WriteToCSV.vi"/>
+		<Item Name="ReadFromCSV.vi" Type="VI" URL="../ReadFromCSV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
