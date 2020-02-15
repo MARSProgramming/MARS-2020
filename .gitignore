@@ -1,2 +1,18 @@
+# Libraries
+*.lvlibp
+*.llb
 
-Small_Tasks/Turret_Testing/Turret_Testing.aliases
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.rtexe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
