@@ -108,34 +108,26 @@ AddOutputFilter chunkFilter
 				<Item Name="Command Actuaute Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Actuaute Cube.vi"/>
 				<Item Name="Command Arm.vi" Type="VI" URL="../Autonomous/Commands/Command Arm.vi"/>
 				<Item Name="Command Change State.vi" Type="VI" URL="../Autonomous/Commands/Command Change State.vi"/>
-				<Item Name="Command Cube Outtake.vi" Type="VI" URL="../Autonomous/Commands/Command Cube Outtake.vi"/>
-				<Item Name="Command Distance RPED Left.vi" Type="VI" URL="../Autonomous/Commands/Command Distance RPED Left.vi"/>
-				<Item Name="Command Distance RPED Right.vi" Type="VI" URL="../Autonomous/Commands/Command Distance RPED Right.vi"/>
-				<Item Name="Command Drive Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Cube.vi"/>
 				<Item Name="Command Drive Distance Delay.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance Delay.vi"/>
 				<Item Name="Command Drive Distance Ramp.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance Ramp.vi"/>
 				<Item Name="Command Drive Distance Slow.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance Slow.vi"/>
 				<Item Name="Command Drive Distance with Heading Delay.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance with Heading Delay.vi"/>
 				<Item Name="Command Drive Distance.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance.vi"/>
 				<Item Name="Command Drive Time.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Time.vi"/>
-				<Item Name="Command Drive To Cube With Heading.vi" Type="VI" URL="../Autonomous/Commands/Command Drive To Cube With Heading.vi"/>
+				<Item Name="Command Flywheel.vi" Type="VI" URL="../Autonomous/Commands/Command Flywheel.vi"/>
 				<Item Name="Command Hybrid Turn to Heading.vi" Type="VI" URL="../Autonomous/Commands/Command Hybrid Turn to Heading.vi"/>
 				<Item Name="Command Intake Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Intake Cube.vi"/>
+				<Item Name="Command Intake.vi" Type="VI" URL="../Autonomous/Commands/Command Intake.vi"/>
 				<Item Name="Command Lift Delay.vi" Type="VI" URL="../Autonomous/Commands/Command Lift Delay.vi"/>
 				<Item Name="Command Lift.vi" Type="VI" URL="../Autonomous/Commands/Command Lift.vi"/>
+				<Item Name="Command Magazine.vi" Type="VI" URL="../Autonomous/Commands/Command Magazine.vi"/>
 				<Item Name="Command No-Op.vi" Type="VI" URL="../Autonomous/Commands/Command No-Op.vi"/>
-				<Item Name="Command RPED Left Slow.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Left Slow.vi"/>
-				<Item Name="Command RPED Left.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Left.vi"/>
-				<Item Name="Command RPED Right Slow.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Right Slow.vi"/>
-				<Item Name="Command RPED Right.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Right.vi"/>
 				<Item Name="Command Run MP.vi" Type="VI" URL="../Autonomous/Commands/Command Run MP.vi"/>
-				<Item Name="Command Turn to Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Cube.vi"/>
 				<Item Name="Command Turn to Heading Speed Cap.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Heading Speed Cap.vi"/>
 				<Item Name="Command Turn to Heading Tighter.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Heading Tighter.vi"/>
 				<Item Name="Command Turn to Heading.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Heading.vi"/>
+				<Item Name="Command Turret.vi" Type="VI" URL="../Autonomous/Commands/Command Turret.vi"/>
 				<Item Name="Command Wait.vi" Type="VI" URL="../Autonomous/Commands/Command Wait.vi"/>
-				<Item Name="Command_Flywheel.vi" Type="VI" URL="../Autonomous/Commands/Command_Flywheel.vi"/>
-				<Item Name="Command_Intake.vi" Type="VI" URL="../Autonomous/Commands/Command_Intake.vi"/>
 			</Item>
 			<Item Name="Autonomous Execution.vi" Type="VI" URL="../Autonomous/Autonomous Execution.vi"/>
 			<Item Name="Autonomous Globals.vi" Type="VI" URL="../Autonomous/Autonomous Globals.vi"/>
@@ -712,7 +704,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Intake Rotation Control Type.ctl" Type="VI" URL="../Intake Rotation/Intake Rotation Control Type.ctl"/>
 			<Item Name="Intake Rotation Globals.vi" Type="VI" URL="../Intake Rotation/Intake Rotation Globals.vi"/>
 			<Item Name="Intake Rotation Notifier.ctl" Type="VI" URL="../Intake Rotation/Intake Rotation Notifier.ctl"/>
-			<Item Name="Leading Edge Latch.vi" Type="VI" URL="../Utility VIs/Leading Edge Latch.vi"/>
 			<Item Name="Lift Control Type.ctl" Type="VI" URL="../Lift/Lift Control Type.ctl"/>
 			<Item Name="Lift Enum States.ctl" Type="VI" URL="../Lift/Lift Enum States.ctl"/>
 			<Item Name="Lift Globals.vi" Type="VI" URL="../Lift/Lift Globals.vi"/>
