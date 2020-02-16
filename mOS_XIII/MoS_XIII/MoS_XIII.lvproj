@@ -136,6 +136,7 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="RPM_From_Lookup.vi" Type="VI" URL="../Autonomous/Commands/RPM_From_Lookup.vi"/>
 		<Item Name="Sensor_Reads.vi" Type="VI" URL="../Sensor_Reads.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
