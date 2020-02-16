@@ -10,4 +10,4 @@
 
 #### ClimbCals.csv: /home/lvuser/ClimbCals.csv
 
-#### ~lock.MagazineCals.csv#: /home/lvuser/.~lock.MagazineCals.csv
+
