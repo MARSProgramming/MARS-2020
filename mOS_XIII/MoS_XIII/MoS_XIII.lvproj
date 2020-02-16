@@ -13,13 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="UNIT_TEST_INTAKE.vi" Type="VI" URL="../UNIT_TEST_INTAKE.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
-			</Item>
-			<Item Name="Intake_Hopper_Pneumatic_Safety_Interlocks.vi" Type="VI" URL="../Subsystems/Intake/Intake_Hopper_Pneumatic_Safety_Interlocks.vi"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
@@ -102,7 +96,58 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Auto" Type="Folder"/>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="Autonomous Utilities" Type="Folder">
+				<Item Name="Calculate Theta Error.vi" Type="VI" URL="../Autonomous/Autonomous Utilities/Calculate Theta Error.vi"/>
+				<Item Name="Check File.vi" Type="VI" URL="../Autonomous/Autonomous Utilities/Check File.vi"/>
+				<Item Name="Get File Name.vi" Type="VI" URL="../Autonomous/Autonomous Utilities/Get File Name.vi"/>
+				<Item Name="Get Lines.vi" Type="VI" URL="../Autonomous/Autonomous Utilities/Get Lines.vi"/>
+				<Item Name="Timeout.vi" Type="VI" URL="../Autonomous/Autonomous Utilities/Timeout.vi"/>
+			</Item>
+			<Item Name="Commands" Type="Folder">
+				<Item Name="Command Actuaute Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Actuaute Cube.vi"/>
+				<Item Name="Command Arm.vi" Type="VI" URL="../Autonomous/Commands/Command Arm.vi"/>
+				<Item Name="Command Change State.vi" Type="VI" URL="../Autonomous/Commands/Command Change State.vi"/>
+				<Item Name="Command Cube Outtake.vi" Type="VI" URL="../Autonomous/Commands/Command Cube Outtake.vi"/>
+				<Item Name="Command Distance RPED Left.vi" Type="VI" URL="../Autonomous/Commands/Command Distance RPED Left.vi"/>
+				<Item Name="Command Distance RPED Right.vi" Type="VI" URL="../Autonomous/Commands/Command Distance RPED Right.vi"/>
+				<Item Name="Command Drive Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Cube.vi"/>
+				<Item Name="Command Drive Distance Delay.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance Delay.vi"/>
+				<Item Name="Command Drive Distance Ramp.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance Ramp.vi"/>
+				<Item Name="Command Drive Distance Slow.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance Slow.vi"/>
+				<Item Name="Command Drive Distance with Heading Delay.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance with Heading Delay.vi"/>
+				<Item Name="Command Drive Distance.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Distance.vi"/>
+				<Item Name="Command Drive Time.vi" Type="VI" URL="../Autonomous/Commands/Command Drive Time.vi"/>
+				<Item Name="Command Drive To Cube With Heading.vi" Type="VI" URL="../Autonomous/Commands/Command Drive To Cube With Heading.vi"/>
+				<Item Name="Command Hybrid Turn to Heading.vi" Type="VI" URL="../Autonomous/Commands/Command Hybrid Turn to Heading.vi"/>
+				<Item Name="Command Intake Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Intake Cube.vi"/>
+				<Item Name="Command Lift Delay.vi" Type="VI" URL="../Autonomous/Commands/Command Lift Delay.vi"/>
+				<Item Name="Command Lift.vi" Type="VI" URL="../Autonomous/Commands/Command Lift.vi"/>
+				<Item Name="Command No-Op.vi" Type="VI" URL="../Autonomous/Commands/Command No-Op.vi"/>
+				<Item Name="Command RPED Left Slow.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Left Slow.vi"/>
+				<Item Name="Command RPED Left.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Left.vi"/>
+				<Item Name="Command RPED Right Slow.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Right Slow.vi"/>
+				<Item Name="Command RPED Right.vi" Type="VI" URL="../Autonomous/Commands/Command RPED Right.vi"/>
+				<Item Name="Command Run MP.vi" Type="VI" URL="../Autonomous/Commands/Command Run MP.vi"/>
+				<Item Name="Command Turn to Cube.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Cube.vi"/>
+				<Item Name="Command Turn to Heading Speed Cap.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Heading Speed Cap.vi"/>
+				<Item Name="Command Turn to Heading Tighter.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Heading Tighter.vi"/>
+				<Item Name="Command Turn to Heading.vi" Type="VI" URL="../Autonomous/Commands/Command Turn to Heading.vi"/>
+				<Item Name="Command Wait.vi" Type="VI" URL="../Autonomous/Commands/Command Wait.vi"/>
+				<Item Name="Command_Flywheel.vi" Type="VI" URL="../Autonomous/Commands/Command_Flywheel.vi"/>
+				<Item Name="Command_Intake.vi" Type="VI" URL="../Autonomous/Commands/Command_Intake.vi"/>
+			</Item>
+			<Item Name="Autonomous Execution.vi" Type="VI" URL="../Autonomous/Autonomous Execution.vi"/>
+			<Item Name="Autonomous Globals.vi" Type="VI" URL="../Autonomous/Autonomous Globals.vi"/>
+			<Item Name="Autonomous Load.vi" Type="VI" URL="../Autonomous/Autonomous Load.vi"/>
+			<Item Name="Autonomous Parse.vi" Type="VI" URL="../Autonomous/Autonomous Parse.vi"/>
+			<Item Name="Autunomous Initilization.vi" Type="VI" URL="../Autonomous/Autunomous Initilization.vi"/>
+			<Item Name="Command Execution State.ctl" Type="VI" URL="../Autonomous/Command Execution State.ctl"/>
+			<Item Name="Game Data.vi" Type="VI" URL="../Autonomous/Game Data.vi"/>
+			<Item Name="Queue Key Data.ctl" Type="VI" URL="../Autonomous/Queue Key Data.ctl"/>
+			<Item Name="Robot Subsystems.ctl" Type="VI" URL="../Autonomous/Robot Subsystems.ctl"/>
+			<Item Name="String to Array.vi" Type="VI" URL="../Autonomous/String to Array.vi"/>
+		</Item>
 		<Item Name="Globals" Type="Folder" URL="../Globals">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -136,7 +181,6 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="RPM_From_Lookup.vi" Type="VI" URL="../Autonomous/Commands/RPM_From_Lookup.vi"/>
 		<Item Name="Sensor_Reads.vi" Type="VI" URL="../Sensor_Reads.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -146,6 +190,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Cached Name Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Cached Name Lookup.vi"/>
 				<Item Name="Cast to Little Endian Byte Array.vim" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Private/Cast to Little Endian Byte Array.vim"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert NT Boolean to LV String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert NT Boolean to LV String.vi"/>
 				<Item Name="Convert NT Types.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert NT Types.vi"/>
 				<Item Name="Convert String to NT Boolean Array Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT Boolean Array Buffer.vi"/>
@@ -204,12 +250,33 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorController_IntegratedSensorData_TalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Get/CTRE_Phoenix_MotorController_IntegratedSensorData_TalonFX.vi"/>
 				<Item Name="CTRE_Phoenix_TalonFX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon FX/CTRE_Phoenix_TalonFX_Open.vi"/>
 				<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
+				<Item Name="CTRE_PigeonIMU_CalibrationMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_CalibrationMode.ctl"/>
+				<Item Name="CTRE_PigeonIMU_ConnectionType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_ConnectionType.ctl"/>
+				<Item Name="CTRE_PigeonIMU_DeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_DeviceRef.ctl"/>
+				<Item Name="CTRE_PigeonIMU_Get6DQuaternion.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_Get6DQuaternion.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetAccelerometerAngles.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetAccelerometerAngles.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetAccumGyro.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetAccumGyro.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetBiasedAccelerometer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetBiasedAccelerometer.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetBiasedMagnetometer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetBiasedMagnetometer.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetCompass.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetCompass.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetData.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetFusedHeading.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetFusedHeading.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetRawGyro.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetRawGyro.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetRawMagnetometer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetRawMagnetometer.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetStartupStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetStartupStatus.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetTempStateUpTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetTempStateUpTime.vi"/>
+				<Item Name="CTRE_PigeonIMU_GetYPR.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_GetYPR.vi"/>
+				<Item Name="CTRE_PigeonIMU_PigeonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_PigeonState.ctl"/>
+				<Item Name="CTRE_PigeonIMU_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_RefNumRegistryGet.vi"/>
+				<Item Name="CTRE_PigeonIMU_SetYaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_SetYaw.vi"/>
+				<Item Name="CTRE_PigeonIMU_TareType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_TareType.ctl"/>
 				<Item Name="DriverLib.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Field Data Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data Manager.vi"/>
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
 				<Item Name="Field ID.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field ID.ctl"/>
 				<Item Name="Field Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Type.ctl"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="FPGA_AIChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIChannel.ctl"/>
 				<Item Name="FPGA_AIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIDevRef.ctl"/>
 				<Item Name="FPGA_AIERRInvalidAnalogChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIERRInvalidAnalogChannel.vi"/>
@@ -303,7 +370,14 @@ AddOutputFilter chunkFilter
 				<Item Name="NT Write Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Value.vi"/>
 				<Item Name="NT Write Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Variant.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Prepare Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Pattern.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Refnum Registry Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/Refnum Registry Operation.ctl"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
@@ -481,6 +555,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
 				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
+				<Item Name="WPI_CompressorStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStop.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_Disable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_Disable.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_Enable.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_SetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_SetOutput.vi"/>
@@ -621,11 +696,27 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesFRC SendMessageToConsole.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC SendMessageToConsole.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Arm Enum States.ctl" Type="VI" URL="../Intake Rotation/Arm Enum States.ctl"/>
+			<Item Name="Drive Control Type.ctl" Type="VI" URL="../Drive/Drive Control Type.ctl"/>
+			<Item Name="Drive Globals.vi" Type="VI" URL="../Drive/Drive Globals.vi"/>
+			<Item Name="Drive Notifier.ctl" Type="VI" URL="../Drive/Drive Notifier.ctl"/>
 			<Item Name="Elevator_Globals.vi" Type="VI" URL="../Global_Variables/Elevator_Globals.vi"/>
 			<Item Name="Encoder_Initialization.vi" Type="VI" URL="../Initialization_VIs/Encoder_Initialization.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Hypotenuse.vi" Type="VI" URL="../Utility VIs/Hypotenuse.vi"/>
+			<Item Name="Intake Control Type.ctl" Type="VI" URL="../Intake/Intake Control Type.ctl"/>
+			<Item Name="Intake Globals.vi" Type="VI" URL="../Intake/Intake Globals.vi"/>
+			<Item Name="Intake Notifier.ctl" Type="VI" URL="../Intake/Intake Notifier.ctl"/>
+			<Item Name="Intake Rotation Control Type.ctl" Type="VI" URL="../Intake Rotation/Intake Rotation Control Type.ctl"/>
+			<Item Name="Intake Rotation Globals.vi" Type="VI" URL="../Intake Rotation/Intake Rotation Globals.vi"/>
+			<Item Name="Intake Rotation Notifier.ctl" Type="VI" URL="../Intake Rotation/Intake Rotation Notifier.ctl"/>
+			<Item Name="Leading Edge Latch.vi" Type="VI" URL="../Utility VIs/Leading Edge Latch.vi"/>
+			<Item Name="Lift Control Type.ctl" Type="VI" URL="../Lift/Lift Control Type.ctl"/>
+			<Item Name="Lift Enum States.ctl" Type="VI" URL="../Lift/Lift Enum States.ctl"/>
+			<Item Name="Lift Globals.vi" Type="VI" URL="../Lift/Lift Globals.vi"/>
+			<Item Name="Lift Notifier.ctl" Type="VI" URL="../Lift/Lift Notifier.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -636,8 +727,14 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PID.vi" Type="VI" URL="../Utility VIs/PID.vi"/>
+			<Item Name="Position Data.vi" Type="VI" URL="../Globals/Position Data.vi"/>
+			<Item Name="Refnum Names.vi" Type="VI" URL="../Utility VIs/Refnum Names.vi"/>
 			<Item Name="Refnum_Names.vi" Type="VI" URL="../Global_Variables/Refnum_Names.vi"/>
 			<Item Name="Robot_Global_Data.vi" Type="VI" URL="../Global_Variables/Robot_Global_Data.vi"/>
+			<Item Name="RPED Control Type.ctl" Type="VI" URL="../RPED/RPED Control Type.ctl"/>
+			<Item Name="RPED Notifier.ctl" Type="VI" URL="../RPED/RPED Notifier.ctl"/>
+			<Item Name="RPM to Native Units.vi" Type="VI" URL="../Utility VIs/RPM to Native Units.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
