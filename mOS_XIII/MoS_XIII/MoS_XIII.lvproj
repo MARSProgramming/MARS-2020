@@ -102,7 +102,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Auto" Type="Folder"/>
+		<Item Name="Auto" Type="Folder" URL="../Auto">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Globals" Type="Folder" URL="../Globals">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -630,15 +632,25 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Autonomous_Execution.vi" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2019/2019_Off-Season/6_Wheel_Slim_With_Auto/Autonomous_Execution.vi"/>
-			<Item Name="Autonomous_Load.vi" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2019/2019_Off-Season/6_Wheel_Slim_With_Auto/Autonomous_Load.vi"/>
-			<Item Name="Autonomous_Parse.vi" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2019/2019_Off-Season/6_Wheel_Slim_With_Auto/Autonomous_Parse.vi"/>
-			<Item Name="DriveExecuteCluster.ctl" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2019/2019_Off-Season/6_Wheel_Slim_With_Auto/Subsystems/Drive/DriveExecuteCluster.ctl"/>
+			<Item Name="Climb_Control_Type.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Control_Type.ctl"/>
+			<Item Name="Climb_Notifier.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Notifier.ctl"/>
+			<Item Name="Drive_Control_Type.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Control_Type.ctl"/>
+			<Item Name="Drive_Notifier.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Notifier.ctl"/>
+			<Item Name="Elevator_Control_Type.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Control_Type.ctl"/>
+			<Item Name="Elevator_Enum_States.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Enum_States.ctl"/>
 			<Item Name="Elevator_Globals.vi" Type="VI" URL="../Global_Variables/Elevator_Globals.vi"/>
+			<Item Name="Elevator_Notifier.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Notifier.ctl"/>
 			<Item Name="Encoder_Initialization.vi" Type="VI" URL="../Initialization_VIs/Encoder_Initialization.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Intake_Ball_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Ball/Intake_Ball_Control_Type.ctl"/>
+			<Item Name="Intake_Ball_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Ball/Intake_Ball_Notifier.ctl"/>
+			<Item Name="Intake_Disc_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Disc/Intake_Disc_Control_Type.ctl"/>
+			<Item Name="Intake_Disc_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Disc/Intake_Disc_Notifier.ctl"/>
+			<Item Name="Intake_Joint_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Control_Type.ctl"/>
+			<Item Name="Intake_Joint_Enum_States.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Enum_States.ctl"/>
+			<Item Name="Intake_Joint_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Notifier.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -649,11 +661,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Queue_Key_Data.ctl" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2019/2019_Off-Season/6_Wheel_Slim_With_Auto/Autonomous Utilities/Queue_Key_Data.ctl"/>
 			<Item Name="Refnum_Names.vi" Type="VI" URL="../Global_Variables/Refnum_Names.vi"/>
 			<Item Name="Robot_Global_Data.vi" Type="VI" URL="../Global_Variables/Robot_Global_Data.vi"/>
-			<Item Name="RobotSubsystemsCluster.ctl" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2019/2019_Off-Season/6_Wheel_Slim_With_Auto/RobotSubsystemsCluster.ctl"/>
-			<Item Name="String_to_Array.vi" Type="VI" URL="../../../../MARS-Private/MARS-Repos/2019/2019_Off-Season/6_Wheel_Slim_With_Auto/Autonomous Utilities/String_to_Array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
