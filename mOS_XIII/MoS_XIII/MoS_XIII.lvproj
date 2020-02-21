@@ -14,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="UNIT_TEST_INTAKE.vi" Type="VI" URL="../UNIT_TEST_INTAKE.vi"/>
+		<Item Name="CalibrationsGlobalVariables.vi" Type="VI" URL="../Subsystems/Dashboard/CalibrationsGlobalVariables.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
