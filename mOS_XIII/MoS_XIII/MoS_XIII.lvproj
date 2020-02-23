@@ -135,8 +135,10 @@ AddOutputFilter chunkFilter
 		<Item Name="Utility_VIs" Type="Folder" URL="../Utility_VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Command_Execution_State.ctl" Type="VI" URL="../Auto/Command_Execution_State.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Sensor_Reads.vi" Type="VI" URL="../Sensor_Reads.vi"/>
+		<Item Name="Timeout.vi" Type="VI" URL="../Auto/Timeout.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -673,6 +675,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Command Drive Distance.vi" Type="VI" URL="../Auto/Command Drive Distance.vi"/>
+			<Item Name="Command_Execution_State.ctl" Type="VI" URL="../Auto/Command_Execution_State.ctl"/>
+			<Item Name="Command_Turret_MoveToPosition.vi" Type="VI" URL="../Auto/Command_Turret_MoveToPosition.vi"/>
 			<Item Name="Elevator_Globals.vi" Type="VI" URL="../Global_Variables/Elevator_Globals.vi"/>
 			<Item Name="Encoder_Initialization.vi" Type="VI" URL="../Initialization_VIs/Encoder_Initialization.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
@@ -690,6 +695,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Refnum_Names.vi" Type="VI" URL="../Global_Variables/Refnum_Names.vi"/>
 			<Item Name="Robot_Global_Data.vi" Type="VI" URL="../Global_Variables/Robot_Global_Data.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../Auto/Timeout.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -707,7 +713,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
