@@ -487,7 +487,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LED Initialization.vi" Type="VI" URL="../LED Initialization.vi"/>
-			<Item Name="LED_Globals.vi" Type="VI" URL="../../../Documents/GitHub/MARS-2020/mOS_XIII/MoS_XIII/Globals/LED_Globals.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
