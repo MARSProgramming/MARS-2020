@@ -139,8 +139,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Utility_VIs" Type="Folder" URL="../Utility_VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Initialize LED.vi" Type="VI" URL="../../../../../../Desktop/LED Testing Project LabVIEW/Initialize LED.vi"/>
-		<Item Name="LED Initialization.vi" Type="VI" URL="../../../../../../Desktop/Blank project LED/LED Initialization.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Sensor_Reads.vi" Type="VI" URL="../Sensor_Reads.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -684,6 +682,8 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LED Initialization.vi" Type="VI" URL="../../../../../../Desktop/Blank project LED/LED Initialization.vi"/>
+			<Item Name="LED_Globals.vi" Type="VI" URL="../Subsystems/mOS_XIII/MoS_XIII/Globals/LED_Globals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
