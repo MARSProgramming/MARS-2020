@@ -2,22 +2,22 @@
 
 **RESTART LABVIEW CODE FROM DRIVER STATION OR PHOENIX TUNER BEFORE YOU BUILD AND RUN AS STARTUP!**
 
-To produce error:
-Run live
-Finish
-No code in driver station
-Build
-run as startup
+To produce error:<br>
+Run live<br>
+Finish<br>
+No code in driver station<br>
+Build<br>
+run as startup<br>
 
-To fix error:
-(still no robot code on driver station)
-reboot rio from driver station (code will pop up but fatal errors will come with it)
-build
-run as startup
-(code will pop up but fatal errors will come with it)
-reboot rio from driver station
+To fix error:<br>
+(still no robot code on driver station)<br>
+reboot rio from driver station (code will pop up but fatal errors will come with it)<br>
+build<br>
+run as startup<br>
+(code will pop up but fatal errors will come with it)<br>
+reboot rio from driver station<br>
 
-To prevent error after running live:
-restart labview code from driver station or phoenix tuner
-build
-run as startup
+To prevent error after running live:<br>
+restart labview code from driver station or phoenix tuner<br>
+build<br>
+run as startup<br>
