@@ -682,8 +682,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LED Initialization.vi" Type="VI" URL="../../../../../../Desktop/Blank project LED/LED Initialization.vi"/>
-			<Item Name="LED_Globals.vi" Type="VI" URL="../Subsystems/mOS_XIII/MoS_XIII/Globals/LED_Globals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
