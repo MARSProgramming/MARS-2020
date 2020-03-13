@@ -149,6 +149,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Cached Name Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Cached Name Lookup.vi"/>
 				<Item Name="Cast to Little Endian Byte Array.vim" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Private/Cast to Little Endian Byte Array.vim"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert NT Boolean to LV String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert NT Boolean to LV String.vi"/>
 				<Item Name="Convert NT Types.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert NT Types.vi"/>
 				<Item Name="Convert String to NT Boolean Array Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT Boolean Array Buffer.vi"/>
@@ -243,6 +245,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
 				<Item Name="Field ID.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field ID.ctl"/>
 				<Item Name="Field Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Type.ctl"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="FPGA_AIAverageBits.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIAverageBits.vi"/>
 				<Item Name="FPGA_AIChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIChannel.ctl"/>
 				<Item Name="FPGA_AIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIDevRef.ctl"/>
@@ -349,7 +352,14 @@ AddOutputFilter chunkFilter
 				<Item Name="NT Write Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Value.vi"/>
 				<Item Name="NT Write Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Variant.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Prepare Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Pattern.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Refnum Registry Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/Refnum Registry Operation.ctl"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
@@ -675,11 +685,26 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Climb_Control_Type.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Control_Type.ctl"/>
+			<Item Name="Climb_Notifier.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Notifier.ctl"/>
+			<Item Name="Drive Globals.vi" Type="VI" URL="../Drive/Drive Globals.vi"/>
+			<Item Name="Drive_Control_Type.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Control_Type.ctl"/>
+			<Item Name="Drive_Notifier.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Notifier.ctl"/>
+			<Item Name="Elevator_Control_Type.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Control_Type.ctl"/>
+			<Item Name="Elevator_Enum_States.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Enum_States.ctl"/>
 			<Item Name="Elevator_Globals.vi" Type="VI" URL="../Global_Variables/Elevator_Globals.vi"/>
+			<Item Name="Elevator_Notifier.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Notifier.ctl"/>
 			<Item Name="Encoder_Initialization.vi" Type="VI" URL="../Initialization_VIs/Encoder_Initialization.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Intake_Ball_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Ball/Intake_Ball_Control_Type.ctl"/>
+			<Item Name="Intake_Ball_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Ball/Intake_Ball_Notifier.ctl"/>
+			<Item Name="Intake_Disc_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Disc/Intake_Disc_Control_Type.ctl"/>
+			<Item Name="Intake_Disc_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Disc/Intake_Disc_Notifier.ctl"/>
+			<Item Name="Intake_Joint_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Control_Type.ctl"/>
+			<Item Name="Intake_Joint_Enum_States.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Enum_States.ctl"/>
+			<Item Name="Intake_Joint_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Notifier.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -690,8 +715,10 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Refnum Names.vi" Type="VI" URL="../Utility VIs/Refnum Names.vi"/>
 			<Item Name="Refnum_Names.vi" Type="VI" URL="../Global_Variables/Refnum_Names.vi"/>
 			<Item Name="Robot_Global_Data.vi" Type="VI" URL="../Global_Variables/Robot_Global_Data.vi"/>
+			<Item Name="RPM to Native Units.vi" Type="VI" URL="../Utility VIs/RPM to Native Units.vi"/>
 			<Item Name="WriteIndicatorsToNT.vi" Type="VI" URL="../WriteIndicatorsToNT.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
