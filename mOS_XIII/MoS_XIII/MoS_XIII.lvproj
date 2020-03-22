@@ -161,6 +161,8 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_CANifier_DeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/CANifier/CTRE_CANifier_DeviceRef.ctl"/>
 				<Item Name="CTRE_CANifier_GetDeviceReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/CANifier/CTRE_CANifier_GetDeviceReference.vi"/>
 				<Item Name="CTRE_CANifier_LEDChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/CANifier/CTRE_CANifier_LEDChannel.ctl"/>
+				<Item Name="CTRE_CANifier_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/CANifier/CTRE_CANifier_Open.vi"/>
+				<Item Name="CTRE_CANifier_SetDeviceReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/CANifier/CTRE_CANifier_SetDeviceReference.vi"/>
 				<Item Name="CTRE_CANifier_SetLEDOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/CANifier/CTRE_CANifier_SetLEDOutput.vi"/>
 				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_ErrorHandle.vi"/>
 				<Item Name="CTRE_LibraryCall_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_LibraryCall_ErrorHandle.vi"/>
@@ -705,6 +707,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Intake_Joint_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Control_Type.ctl"/>
 			<Item Name="Intake_Joint_Enum_States.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Enum_States.ctl"/>
 			<Item Name="Intake_Joint_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Notifier.ctl"/>
+			<Item Name="LED_Globals.vi" Type="VI" URL="../Subsystems/Globals/LED_Globals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -737,7 +740,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
