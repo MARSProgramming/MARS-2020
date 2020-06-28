@@ -701,6 +701,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Hypotenuse.vi" Type="VI" URL="../Run MP Comand/Hypotenuse.vi"/>
 			<Item Name="Intake_Ball_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Ball/Intake_Ball_Control_Type.ctl"/>
 			<Item Name="Intake_Ball_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Ball/Intake_Ball_Notifier.ctl"/>
 			<Item Name="Intake_Disc_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Disc/Intake_Disc_Control_Type.ctl"/>
