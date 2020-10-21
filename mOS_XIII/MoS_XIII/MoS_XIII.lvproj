@@ -15,12 +15,27 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="UNIT_TEST_INTAKE.vi" Type="VI" URL="../UNIT_TEST_INTAKE.vi"/>
 		<Item Name="Flywheel_Logic_TESTING.vi" Type="VI" URL="../Flywheel_Logic_TESTING.vi"/>
+		<Item Name="Diff_Drive_Sim.vi" Type="VI" URL="../Simulation/Diff_Drive_Sim.vi"/>
+		<Item Name="Sim_Diff_Drive_Globals.vi" Type="VI" URL="../Simulation/Sim_Diff_Drive_Globals.vi"/>
+		<Item Name="Diff_Drive_Pose_Estimation_Tracking.vi" Type="VI" URL="../Simulation/Diff_Drive_Pose_Estimation_Tracking.vi"/>
+		<Item Name="Sim_Position_Tracking.vi" Type="VI" URL="../Simulation/Sim_Position_Tracking.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
+				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
+				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
+				<Item Name="WPI_RobotDriveNormalize 4.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveNormalize 4.vi"/>
+				<Item Name="WPI_JoystickMecanumPolarMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumPolarMapping.vi"/>
+				<Item Name="WPI_RobotDriveRotateVector.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRotateVector.vi"/>
+				<Item Name="WPI_JoystickMecanumCartesianMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumCartesianMapping.vi"/>
+				<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
+				<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
+				<Item Name="WPI_JoystickMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMapping.vi"/>
 			</Item>
 			<Item Name="Intake_Hopper_Pneumatic_Safety_Interlocks.vi" Type="VI" URL="../Subsystems/Intake/Intake_Hopper_Pneumatic_Safety_Interlocks.vi"/>
 			<Item Name="Flyhwheel_Lookup.vi" Type="VI" URL="../Utility_VIs/Flyhwheel_Lookup.vi"/>
+			<Item Name="Hypotenuse.vi" Type="VI" URL="../Utility_VIs/Hypotenuse.vi"/>
+			<Item Name="Position Data.vi" Type="VI" URL="../Utility_VIs/Position Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
