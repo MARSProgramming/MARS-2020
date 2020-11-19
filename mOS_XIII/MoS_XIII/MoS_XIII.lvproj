@@ -710,6 +710,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Intake_Joint_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Notifier.ctl"/>
 			<Item Name="LED_Globals.vi" Type="VI" URL="../Subsystems/Globals/LED_Globals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="New_Magazine_Cluster.ctl" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/New_Magazine_Cluster.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
