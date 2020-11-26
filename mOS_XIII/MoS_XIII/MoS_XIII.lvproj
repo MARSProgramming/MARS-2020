@@ -2,6 +2,9 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{1A2E9D2E-21AC-41A7-B5DF-C7D99AEEF8EF}" Type="Ref">/Target/Subsystems/Spindexer/Untitled Library 1.lvlib/notifier out</Property>
+	<Property Name="varPersistentID:{4DFBADBF-8949-4887-AA12-CBE0C186CCC9}" Type="Ref">/Target/Subsystems/Spindexer/Untitled Library 2.lvlib/Variable</Property>
+	<Property Name="varPersistentID:{79888349-A170-47A3-B8CF-BD2B4EFA20CB}" Type="Ref">/Target/Subsystems/Spindexer/Untitled Library 3.lvlib/Variable</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
