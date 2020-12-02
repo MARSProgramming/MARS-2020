@@ -140,6 +140,7 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="New_Magazine_Globals.vi" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/Magazine/New_Magazine_Globals.vi"/>
+		<Item Name="New_Magazine_Set.vi" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/Magazine/New_Magazine_Set.vi"/>
 		<Item Name="New_Magazine_Teleop.vi" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/Magazine/New_Magazine_Teleop.vi"/>
 		<Item Name="Read_Cals.vi" Type="VI" URL="../Read_Cals.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
