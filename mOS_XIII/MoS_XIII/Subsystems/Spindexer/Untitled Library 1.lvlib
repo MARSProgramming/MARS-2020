@@ -13,6 +13,6 @@
 		<Property Name="typedefName2" Type="Str">Spindexer_modes.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Spindexer_Cluster.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../Spindexer_modes.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#4DQ!!!"E!A!!!!!!$!%=!]1!!!!!!!!!"%V.Q;7ZE:8BF=F^N&lt;W2F=SZD&gt;'Q!+U!7!!)547&amp;O&gt;7&amp;M8V.Q:76E8U.P&lt;H2S&lt;WQ%186U&lt;Q!%47^E:1!!+A$R!!!!!!!!!!%65X"J&lt;G2F?'6S8U.M&gt;8.U:8)O9X2M!!Q!5!!"!!!!#A"Q!"%!!1!"!!%!!A!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#UM!!!!"E!A!!!!!!&amp;!%=!]1!!!!!!!!!"%V.Q;7ZE:8BF=F^N&lt;W2F=SZD&gt;'Q!+U!7!!)547&amp;O&gt;7&amp;M8V.Q:76E8U.P&lt;H2S&lt;WQ%186U&lt;Q!%47^E:1!!#U!+!!64='6F:!!+1#%%186U&lt;Q!!.A$R!!!!!!!!!!%65X"J&lt;G2F?'6S8U.M&gt;8.U:8)O9X2M!"B!5!!$!!!!!1!#"U.M&gt;8.U:8)!#A"Q!"%!!1!$!!%!"!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
