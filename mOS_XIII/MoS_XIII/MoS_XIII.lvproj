@@ -140,13 +140,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Utility_VIs" Type="Folder" URL="../Utility_VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="New_Magazine_Globals.vi" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/Magazine/New_Magazine_Globals.vi"/>
-		<Item Name="New_Magazine_Set.vi" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/Magazine/New_Magazine_Set.vi"/>
-		<Item Name="New_Magazine_Teleop.vi" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/Magazine/New_Magazine_Teleop.vi"/>
 		<Item Name="Read_Cals.vi" Type="VI" URL="../Read_Cals.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Sensor_Reads.vi" Type="VI" URL="../Sensor_Reads.vi"/>
-		<Item Name="New_Magazine_Execute.vi" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/New_Magazine_Execute.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -713,9 +709,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Intake_Joint_Control_Type.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Control_Type.ctl"/>
 			<Item Name="Intake_Joint_Enum_States.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Enum_States.ctl"/>
 			<Item Name="Intake_Joint_Notifier.ctl" Type="VI" URL="../Subsytems/Intake_Joint/Intake_Joint_Notifier.ctl"/>
-			<Item Name="LED_Globals.vi" Type="VI" URL="../Subsystems/Globals/LED_Globals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="New_Magazine_Cluster.ctl" Type="VI" URL="../../../../Summer_Education/ap2/Subsystems/New_Magazine_Cluster.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
