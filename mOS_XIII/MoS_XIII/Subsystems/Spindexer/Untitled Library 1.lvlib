@@ -10,9 +10,9 @@
 		<Property Name="numTypedefs" Type="UInt">2</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Spindexer_Cluster.ctl</Property>
-		<Property Name="typedefName2" Type="Str">Spindexer_modes.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Spindexer_mode.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Spindexer_Cluster.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../Spindexer_modes.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#UM!!!!"E!A!!!!!!&amp;!%=!]1!!!!!!!!!"%V.Q;7ZE:8BF=F^N&lt;W2F=SZD&gt;'Q!+U!7!!)547&amp;O&gt;7&amp;M8V.Q:76E8U.P&lt;H2S&lt;WQ%186U&lt;Q!%47^E:1!!#U!+!!64='6F:!!+1#%%186U&lt;Q!!.A$R!!!!!!!!!!%65X"J&lt;G2F?'6S8U.M&gt;8.U:8)O9X2M!"B!5!!$!!!!!1!#"U.M&gt;8.U:8)!#A"Q!"%!!1!$!!%!"!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Spindexer_mode.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%,"Q%!!"E!A!!!!!!(!!^!#A!)6'BS&lt;X2U&lt;'5!!!J!)16';8*F0Q!=1#%737ZU97NF)(*F9W6O&gt;'RZ)'VP&gt;G6E0Q!!9!$R!!!!!!!!!!%35X"J&lt;G2F?'6S8WVP:'5O9X2M!%6!&amp;A!&amp;"5ZP,5^Q"V.F&lt;H.J&lt;G=)37ZU97NJ&lt;G=62GFS;7ZH+&amp;.Q:76E)%.P&lt;H2S&lt;WQJ"EVB&lt;H6B&lt;!!%47^E:1!!'E!B&amp;&amp;.F&lt;H.P=C"J&lt;C"Q&lt;X.J&gt;'FP&lt;D]A!!![!0%!!!!!!!!!!264='FO:'6Y:8*@1WRV=X2F=CZD&gt;'Q!(%"1!!5!!!!"!!)!!Q!%"U.M&gt;8.U:8)!#A"Q!"%!!1!&amp;!!%!"A!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
