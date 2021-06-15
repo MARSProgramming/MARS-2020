@@ -1,0 +1,10 @@
+testing
+{
+Flywheel.SpinUpAuto(0,2.5,True);
+Magazine.Fire(1,2.5,True);
+/**placeholder wait command**/
+Magazine.Fire(0,0,False);
+Drive.HeadingDistance(15,0,.4,15,True);
+Intake.RunIntake(0.45,10,True);
+Intake.RunIntake(0,0,False);
+}
