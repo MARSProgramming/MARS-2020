@@ -3,7 +3,7 @@ Shoot6
 /**currently recreates the 6-ball auto of the past**/
 Turret.Auto_Target(0,0,2.5,True);
 Flywheel.SpinUpAuto(0,2.5,True);
-Magazine.Fire(1,2.5,True);
+Magazine.Fire(1,3.2,True);
 /**placeholder wait command**/
 Magazine.Fire(0,0,False);
 Drive.HeadingDistance(14,0,.45,5,True);
