@@ -1,17 +1,10 @@
 Shoot8
 {
-Flywheel.SpinUpAuto(0,4,True);
-Magazine.Fire(1,4,True);
-Turret.Auto_Target(0,0,8,True);
-Drive.HeadingDistance(19.3,0,.45,8,True);
-Intake.RunIntake(0.4,8,True);
-Intake.RunIntake(0,0.1,False);
-/**placeholder wait**/
-/**should be back at same place as 6 ball here**/
-Turret.Auto_Target(0,0,2,True);
-Drive.HeadingDistance(-8,0,.7,2,True);
-Intake.RunIntake(0,0.1,False);
-Intake.RunIntake(0.3,6,True);
-Flywheel.SpinUpAuto(0,6,True);
-Magazine.Fire(1,6,True);
+/**this is a backup play**/
+Turret.Auto_Target(0,0,2.5,True); 
+Flywheel.SpinUpAuto(0, 2.7, True); 
+Magazine.Fire(1,2.1,True); 
+/**placeholder wait command**/
+Magazine.Fire(0,0,False); 
+Drive.HeadingDistance(3.5,0,.45,5.5,False); 
 }
